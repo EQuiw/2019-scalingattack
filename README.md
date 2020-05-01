@@ -22,8 +22,7 @@ In short, image-scaling attacks enable an adversary to manipulate images, such
 that they change their appearance/content after downscaling. In
 particular, the attack generates an image A by slightly
 perturbing the source image S, such that its scaled version D
-matches a target image T. This process is illustrated in
-Figure above.
+matches a target image T. This process is illustrated in the figure above.
 
 ## Getting Started
 This repository contains the main code for the attacks and defenses. It has a

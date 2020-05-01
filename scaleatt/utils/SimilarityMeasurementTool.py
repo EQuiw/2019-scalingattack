@@ -36,7 +36,7 @@ class SimilarityMeasurementTool:
         """
         Feature matching with ORB
         :param img1: image under investigation 1
-        :param img2: image under investigation 1
+        :param img2: image under investigation 2
         :param doprint: verbose flag
         :param threshold: float value as threshold
         :return:
@@ -74,7 +74,7 @@ class SimilarityMeasurementTool:
         Important: Usage of SIFT requires compilation of OpenCV, and consider the license as well!
         If OpenCV was not installed with SIFT from source, this method will not work!
         :param img1: image under investigation 1
-        :param img2: image under investigation 1
+        :param img2: image under investigation 2
         :param doprint: verbose flag
         :param threshold: float value as threshold
         :return:
