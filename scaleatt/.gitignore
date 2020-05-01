@@ -1,0 +1,12 @@
+# exclude files that are added due to cython
+**/*.so
+**/*.html
+build
+.idea
+
+defenses/prevention/cythmodule/medianfiltering.cpp
+defenses/prevention/cythmodule/randomfiltering.c
+attack/adaptive_attack/cythmodule/adaptivemedianfiltering.cpp
+attack/adaptive_attack/cythmodule/adaptiverandomfiltering.cpp
+
+config.py

@@ -1,0 +1,15 @@
+opencv_python==4.1.0.25
+numpy==1.16.3
+tensorflow==1.13.1
+scikit_image==0.15.0
+matplotlib==3.0.3
+cvxpy==1.0.21
+Keras==2.2.4
+Pillow==6.0.0
+scikit_image==0.15.0
+scikit_learn==0.20.3
+scipy==1.2.1
+pandas==0.24.2
+fpdf==1.7.2
+cython==0.29.14
+seaborn==0.10.0
