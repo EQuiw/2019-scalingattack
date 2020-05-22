@@ -1,12 +1,7 @@
 # Readme -- Image-Scaling Attacks and Defenses
 
 ## About
-You will find here all the necessary information to understand and perform
-image-scaling attacks as well as to apply defenses.
-
-In the following, we will first describe the steps to set up the python
-environment before describing the tutorial that gives an introduction to this repo.
-
+This document describes the steps to set up the python environment.
 
 ## System Requirements
 - Python 3.6
@@ -28,7 +23,7 @@ That said, let's examine the different steps that are necessary:
   - Go to the [Anaconda website](https://www.anaconda.com/distribution/#download-section)
   and download/install the latest Python 3 version. At the time of writing,
   it was the Python 3.7 version and Anaconda 2019.10.
-  - If you want to use virtualenv, because you are already familiar with that,
+  - If you want to use *virtualenv*, because you are already familiar with that,
   you can also try it. With virtualenv, we had some problems to get the requested
   version from the requirements.txt. But in principle, virtualenv should also work if
   you can get the correct python packages.
@@ -80,30 +75,9 @@ That said, let's examine the different steps that are necessary:
         - Please use *existing interpreter* and activate the *scaling-attack*
         environment that we've created in step 2.
 
-## Tutorial
-Under *scaleatt/tutorial*, we've created a tutorial that outlines the
-different steps for running attacks and defenses from our paper.
-The directory has the same structure as our evaluation. Each subdirectory
-corresponds to the subsection from our paper. We use a running example
-with a coffee mug as source- and a cat as target-image. Both images
-are available via a python library, so that the python tutorial has no
-external dependencies. In this way, it should be easy to get an intuition
-for image-scaling attacks and to include the attacks and defenses in own
-projects.
-
-
-- Overview:
-  - The directory *defense1* corresponds to experiments from Section 5.2 and 5.3
-  - The directory *defense2* corresponds to experiments from Section 5.4 and 5.5
-  - Each subdirectory contains some python scripts that describe the API
-  and the respective steps.
-- Workflow:
-  - Open each file (in the order of the steps)
-  - I strongly recommend using a python console to run the code _step by step interactively_.
 
 ## Troubleshooting
-1. Depending on your system, it might be necessary to install ```python3-tk```
-package.
+1. Depending on your system, it might be necessary to install the package ```python3-tk```.
 2. If you get the error *libSM.so.6 is missing*, see step 3 to solve it.
 3. Python paths:
   - If you do not use an IDE or Pycharm, you might need to set the PYTHONPATH
