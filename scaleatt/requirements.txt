@@ -1,6 +1,6 @@
 opencv_python==4.1.0.25
 numpy==1.16.3
-tensorflow==1.13.1
+tensorflow==2.3.1
 scikit_image==0.15.0
 matplotlib==3.0.3
 cvxpy==1.0.21
